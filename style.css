@@ -196,6 +196,7 @@ header{
 
 
 
+    @media screen and (min-width: 540px){
     .navbar-nav a{
         padding-right: 1.2rem;
         padding-left: 1.2rem;
@@ -209,9 +210,9 @@ header{
         margin-left: auto;
         margin-right: auto;
     }
+}
 
-
-
+@media screen and (min-width: 768px){
     .navbar .container{
         display: flex;
         align-items: center;
@@ -233,17 +234,22 @@ header{
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+}
 
+@media screen and (min-width: 992px){
     .blog-content{
         grid-template-columns: repeat(3, 1fr);
     }
-    .text-content{
+    .about-content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3rem;
         align-items: center;
     }
+}
 
+@media screen and (min-width: 1200px){
     .design-content{
         grid-template-columns: repeat(3, 1fr);
     }
+}
